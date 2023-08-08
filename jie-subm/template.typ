@@ -3,7 +3,7 @@
 // Last updated: 07-08-2023
 
 #let jie-subm(
-  show-as-manuscript: true,
+  show-as-article: false,
   article-type: none,
   title: none,
   subtitle: none,
@@ -21,7 +21,7 @@
     #ct
   ]
   
-  if show-as-manuscript {
+  if not show-as-article {
   // Formatted as manuscript:
     set page(
       paper: "us-letter",
