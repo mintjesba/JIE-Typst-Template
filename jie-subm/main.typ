@@ -1,7 +1,7 @@
 #import "template.typ": *
 
 #show: doc => jie-subm(
-  show-as-manuscript: false,  // Change to false to get article-like output
+  show-as-article: false,  // Change to true to get article-like output
   article-type: [
     [Article Type]
   ],
