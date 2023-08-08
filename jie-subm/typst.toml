@@ -1,0 +1,7 @@
+[package]
+name = "jie-subm"
+version = "0.1.0"
+entrypoint = "jie-subm.typ"
+authors = ["Berend Mintjes"]
+license = "MIT"
+description = "A package for Journal of Industrial Ecology (JIE) submissions."
